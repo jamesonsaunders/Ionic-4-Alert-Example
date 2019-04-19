@@ -1,14 +1,40 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Ionic 4 Alert
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+
+    <p>Learn more from Jami at <a href="https://jamibot.com" target="_blank">jamibot.com</a></p>
+
+    <div>
+      <ion-button (click)="presentAlert()">Basic Alert</ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="presentAlertMultipleButtons()">Multiple Buttons</ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="presentAlertConfirm()">Confirm</ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="presentAlertPrompt()">Prompt</ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="presentAlertRadio()">Radio</ion-button>
+    </div>
+
+    <div>
+      <ion-button (click)="presentAlertCheckbox()">Checkbox</ion-button>
+    </div>
+
+
   </div>
 </ion-content>
